@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#root {
+  height: 100%;
+}
+
+.message {
+  font-family: "Roboto Mono", monospace;    
+  font-size: 0.4em;
+  min-height: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+.countDown {
+  font-size: 1.5em;
+  min-height: 1.3em;
+}
+
+.round {
+  font-size: 0.2em;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 1em;
+}
+
+body{
+  background-color: #171718;
+  color: #fff;
+  height: 100vh;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* main{
+  padding-top: 180px;
+  max-width: 600px; 
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+} */
+
+.pomodoro {
+  align-items: center;
+  justify-content: center;
+  font-size: 6em;
+}
+
+button{
+  background-color: transparent;
+  color: white;
+  border:0;
+  display: inline-block;
+  width: 50px;
+  cursor: pointer;
+}
+
+button.with-text{
+  width: auto;
+  background-color:rgba(255,255,255,0.1);
+  border-radius:10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+
+button.with-text svg{
+  width: 36px;
+  float:left;
+  margin-right: 5px;
+}
+
+label{
+  display:block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
